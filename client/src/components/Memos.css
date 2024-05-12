@@ -1,0 +1,52 @@
+/* memos.css */
+.container-fluid {
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 2rem;
+  }
+  
+  .Memos {
+    margin-top: 2rem;
+  }
+  
+  /* Added styles for Memos component */
+  .Memos ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .Memos li {
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Memos li img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .Memos li p {
+    margin: 1rem 0;
+    font-size: 1.1em;
+  }
+  
+  .Memos li button {
+    background-color: #61dafb;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1.1em;
+  }
+  
+  .Memos li button:hover {
+    background-color: #0a66c2;
+  }
+  
